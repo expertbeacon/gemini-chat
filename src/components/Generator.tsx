@@ -285,9 +285,6 @@ export default () => {
             <div i-ph-arrow-line-down-bold />
           </button>
         </div>
-        
-<div class="sharethis-inline-share-buttons"></div>
- <p style="text-align: center;" mt-1="" op-60="">Sharing is caring!</p>
       </div> */}
     </div>
   )

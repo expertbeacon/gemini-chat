@@ -1,43 +1,20 @@
 <footer>
   <div class="max-w-[80vw] mx-auto flex flex-col items-center justify-center mb-[1em]">
     <div class="flex flex-wrap justify-center items-center text-xs op-30 my-2">
-
-      {import.meta.env.BLOG_LINK && (
-        <>
-          <a b-slate-link href={import.meta.env.BLOG_LINK} target="_blank">Blog</a>
-        </>
-      )}
-
-      {import.meta.env.PARTNER_LINK1 && import.meta.env.PARTNER_LINK_TITLE1 && (
-        <>
+          <a b-slate-link href="https://blog.chatgemini.net/" target="_blank">Blog</a>
           <span class="px-1">|</span>
-          <a b-slate-link href={import.meta.env.PARTNER_LINK1} target="_blank">{import.meta.env.PARTNER_LINK_TITLE1}</a>
-        </>
-      )}
-
-      {import.meta.env.PARTNER_LINK2 && import.meta.env.PARTNER_LINK_TITLE2 && (
-        <>
+          <a b-slate-link href="https://blog.chatgemini.net/contact/" target="_blank">Contact</a>
           <span class="px-1">|</span>
-          <a b-slate-link href={import.meta.env.PARTNER_LINK2} target="_blank">{import.meta.env.PARTNER_LINK_TITLE2}</a>
-        </>
-      )}
+          <a b-slate-link href="https://github.com/expertbeacon/gemini-chatbot" target="_blank">Github</a>  
     </div>
-
     <p class="flex flex-wrap justify-center items-center text-xs op-30 my-2">
-      © 2023&nbsp;<a href="https://geminiprochat.com" target="_blank" class="font-bold">Gemini Pro Chat</a>. All rights reserved.
+      © 2023&nbsp;<a href="https://www.chatgemini.net/" target="_blank" class="font-bold">Chat Gemini</a>. All rights reserved.
     </p>
 
     <div class="flex flex-wrap justify-center items-center text-xs op-30 my-2">
-      {import.meta.env.PRIVACY_POLICY_LINK && (
-        <a href={import.meta.env.PRIVACY_POLICY_LINK} target="_blank">Privacy Policy</a>
-      )}
-      {import.meta.env.TOS_LINK && (
-        <>
+      <a href="https://blog.chatgemini.net/privacy-policy/" target="_blank">Privacy Policy</a>
           <span class="px-1">|</span>
-          <a href={import.meta.env.TOS_LINK} target="_blank">Terms of Service</a>
-        </>
-      )}
+          <a href="https://blog.chatgemini.net/terms-of-service/" target="_blank">Terms of Service</a>   
     </div>
-
   </div>
 </footer>
